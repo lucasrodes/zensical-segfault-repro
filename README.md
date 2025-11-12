@@ -6,6 +6,8 @@ Minimal reproducible project for demonstrating a segmentation fault when using Z
 
 When building documentation with `zensical build --clean`, a segmentation fault occurs if the CLI application imports PyTorch and calls `torch.set_default_device("cpu")`.
 
+**Note:** The error does NOT occur when running `mkdocs build --clean` directly - the issue is specific to running through Zensical.
+
 ## Reproduction Steps
 
 1. Install dependencies using uv:
