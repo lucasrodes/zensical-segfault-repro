@@ -1,0 +1,12 @@
+[project]
+name = "zensical-bug-repro"
+site_name = "Zensical Bug Repro"
+
+[build]
+docs_dir = "docs"
+site_dir = "site"
+
+nav = [{ "Home" = "index.md" }, { "CLI Reference" = "cli-reference.md" }]
+
+[project.markdown_extensions]
+"mkdocs-click" = {}

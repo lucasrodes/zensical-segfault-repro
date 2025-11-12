@@ -1,0 +1,9 @@
+site_name: Zensical Bug Repro
+site_description: Minimal reproducible project for Zensical mkdocs-click segfault bug
+
+nav:
+  - Home: index.md
+  - CLI Reference: cli-reference.md
+
+markdown_extensions:
+  - mkdocs-click
